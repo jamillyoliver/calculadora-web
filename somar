@@ -7,3 +7,5 @@ def soma(a: int, b: int) -> int:
 print("=== Calculadora de Soma de Inteiros ===")
 num1 = int(input("Digite o primeiro número inteiro: "))
 num2 = int(input("Digite o segundo número inteiro: "))
+resultado = somar(num1, num2)
+print(f"A soma de {num1} + {num2} é: {resultado}")
