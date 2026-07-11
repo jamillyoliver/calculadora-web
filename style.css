@@ -1,0 +1,26 @@
+/* Estilo básico da calculadora - A estética real será feita na v2.0.0 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#calculadora {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
