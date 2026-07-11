@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Simples</title>
+    <title>Calculadora Simples (Python)</title>
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
 </head>
 <body>
     <div id="calculadora">
-        <h1>Calculadora do Grupo</h1>
+        <h1>Calculadora do Grupo (Python)</h1>
         
         <input type="number" id="num1" placeholder="Digite o 1º número">
         <input type="number" id="num2" placeholder="Digite o 2º número">
         
         <div class="botoes">
-            <button id="btn-somar">Soma (+)</button>
-            <button id="btn-subtrair">Subtração (-)</button>
-            <button id="btn-multiplicar">Multiplicação (*)</button>
-            <button id="btn-dividir">Divisão (/)</button>
+            <button id="btn-somar" py-click="somar">Soma (+)</button>
+            <button id="btn-subtrair" py-click="subtrair">Subtração (-)</button>
+            <button id="btn-multiplicar" py-click="multiplicar">Multiplicação (*)</button>
+            <button id="btn-dividir" py-click="dividir">Divisão (/)</button>
         </div>
 
         <h2>Resultado: <span id="resultado">0</span></h2>
     </div>
     
-    <script src="script.js"></script>
+    <py-script src="./main.py"></py-script>
 </body>
 </html>
