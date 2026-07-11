@@ -1,2 +1,6 @@
 def soma(a: int, b: int) -> int:
     return a + b
+def soma(a: int, b: int) -> int:
+    if not isinstance(a, int) or not isinstance(b, int):
+        raise TypeError("Os valores devem ser inteiros.")
+    return a + b
