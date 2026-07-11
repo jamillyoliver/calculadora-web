@@ -28,9 +28,15 @@ def multiplicar(event):
 # Integrante 4: Implementar a Divisão
 # -------------------------------------------------------
 def dividir(event):
-    n1 = float(document.getElementById('num1').value)
-    n2 = float(document.getElementById('num2').value)
-    
-    if n2 == 0:
-        elemento_resultado.innerText = "Erro: Divisão por 0"
-        return
+    try:
+        n1 = float(document.getElementById('num1').value)
+        n2 = float(document.getElementById('num2').value)
+        
+        if n2 == 0:
+            elemento_resultado.innerText = "Erro: Divisão por 0"
+            return
+            
+        resultado = n1 / n2
+        elemento_resultado.innerText = str(resultado)
+    except ValueError:
+        elemento_resultado.innerText = "Erro: Digite números válidos"
