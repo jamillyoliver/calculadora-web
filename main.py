@@ -30,3 +30,7 @@ def multiplicar(event):
 def dividir(event):
     n1 = float(document.getElementById('num1').value)
     n2 = float(document.getElementById('num2').value)
+    
+    if n2 == 0:
+        elemento_resultado.innerText = "Erro: Divisão por 0"
+        return
