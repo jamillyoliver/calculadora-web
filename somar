@@ -5,3 +5,5 @@ def soma(a: int, b: int) -> int:
         raise TypeError("Os valores devem ser inteiros.")
     return a + b
 print("=== Calculadora de Soma de Inteiros ===")
+num1 = int(input("Digite o primeiro número inteiro: "))
+num2 = int(input("Digite o segundo número inteiro: "))
