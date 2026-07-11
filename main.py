@@ -28,13 +28,5 @@ def multiplicar(event):
 # Integrante 4: Implementar a Divisão
 # -------------------------------------------------------
 def dividir(event):
-    # Integrante 4, coloque sua lógica aqui (lembre do tratamento por zero!)
-   def dividir(event):
     n1 = float(document.getElementById('num1').value)
     n2 = float(document.getElementById('num2').value)
-    
-def dividir(event):
-    n1 = float(document.getElementById('num1').value)
-    n2 = float(document.getElementById('num2').value)
-    resultado = n1 / n2
-    elemento_resultado.innerText = str(resultado)
