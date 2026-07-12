@@ -3,12 +3,21 @@ from pyscript import document
 # Pegando a área do resultado na tela
 elemento_resultado = document.getElementById('resultado')
 
-# -------------------------------------------------------
-# Integrante 1: Implementar a Soma
-# -------------------------------------------------------
+
+elemento_resultado = document.getElementById('resultado')
+
 def somar(event):
-    # Integrante 1, coloque sua lógica aqui
-    pass
+    try:
+        n1 = float(document.getElementById('num1').value)
+        n2 = float(document.getElementById('num2').value)
+    
+
+
+
+
+
+
+
 
 # -------------------------------------------------------
 # Integrante 2: Implementar a Subtração
