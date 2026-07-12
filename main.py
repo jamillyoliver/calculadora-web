@@ -19,6 +19,9 @@ def somar(event):
         n2 = float(document.getElementById('num2').value)
         resultado = n1 + n2
         elemento_resultado.innerText = str(resultado)
+        except ValueError:
+        elemento_resultado.innerText = "Erro: Digite números válidos"
+        
 
 
 
