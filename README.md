@@ -24,5 +24,10 @@ Este projeto é uma calculadora simples, com tema do Super Mario, desenvolvida e
 5. Clique no botão da operação desejada.
 6. O resultado aparecerá na área de saída e o som será reproduzido. 
 
-
+## Equipe
+* **Seu Nome Completo** - [@jamillyoliver] https://github.com/jamillyoliver
+* **Nome do Tayslan** - [leneribeiro] https://github.com/leneribeiro
+* **Nome da Lene** - [myellowheart] https://github.com/myellowheart
+* **Nome da Yellow** - [xlrayssalima] https://github.com/xlrayssalima
+* **Nome da Rayssa** - [teog-py] https://github.com/teog-py
 
