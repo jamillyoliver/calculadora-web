@@ -24,6 +24,7 @@ def subtrair(event):
 # -------------------------------------------------------
 def multiplicar(event):
     try:
+        #obtem os valores digitados
         n1 = float(document.getElementById("num1").value)
         n2 = float(document.getElementById("num2").value)
 
