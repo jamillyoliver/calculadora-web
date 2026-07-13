@@ -27,7 +27,7 @@ def multiplicar(event):
         #obtem os valores digitados
         n1 = float(document.getElementById("num1").value)
         n2 = float(document.getElementById("num2").value)
-
+        #Realiza a multiplicação
         resultado = n1 * n2
         elemento_resultado.innerText = str(resultado)
 
