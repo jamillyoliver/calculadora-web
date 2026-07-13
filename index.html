@@ -1,31 +1,134 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Simples (Python)</title>
+
+    <title>Calculadora</title>
+
     <link rel="stylesheet" href="style.css">
-    
+
+    <!-- PyScript -->
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+    <!-- Fonte Pixel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div id="calculadora">
-        <h1>Calculadora do Grupo (Python)</h1>
-        
-        <input type="number" id="num1" placeholder="Digite o 1º número">
-        <input type="number" id="num2" placeholder="Digite o 2º número">
-        
-        <div class="botoes">
-            <button id="btn-somar" py-click="somar">Soma (+)</button>
-            <button id="btn-subtrair" py-click="subtrair">Subtração (-)</button>
-            <button id="btn-multiplicar" py-click="multiplicar">Multiplicação (*)</button>
-            <button id="btn-dividir" py-click="dividir">Divisão (/)</button>
+
+    <!-- ================= NUVENS ================= -->
+
+    <div class="nuvem nuvem1"></div>
+    <div class="nuvem nuvem2"></div>
+    <div class="nuvem nuvem3"></div>
+    <div class="nuvem nuvem4"></div>
+    <div class="nuvem nuvem5"></div>
+
+    
+
+    <!-- ================= CENÁRIO ================= -->
+
+    <div class="cenario">
+
+        <!-- Mario -->
+
+        <div class="lado">
+
+            <img
+                class="personagem mario"
+                src="https://preview.redd.it/what-does-mario-mean-to-you-v0-tisyjiqwh5of1.png?width=640&crop=smart&auto=webp&s=93c157b326355a9b61c3201d79e9e86a5ad0bf6c"
+                alt="Mario">
+
         </div>
 
-        <h2>Resultado: <span id="resultado">0</span></h2>
+        <!-- CALCULADORA -->
+
+        <div id="calculadora">
+
+            <h1>Calculadora</h1>
+
+            <input
+                type="number"
+                id="num1"
+                placeholder="Digite o 1º número">
+
+            <input
+                type="number"
+                id="num2"
+                placeholder="Digite o 2º número">
+
+            <div class="botoes">
+
+                <button
+                    id="btn-somar"
+                    py-click="somar">
+                    Soma (+)
+                </button>
+
+                <button
+                    id="btn-subtrair"
+                    py-click="subtrair">
+                    Subtração (-)
+                </button>
+
+                <button
+                    id="btn-multiplicar"
+                    py-click="multiplicar">
+                    Multiplicação (×)
+                </button>
+
+                <button
+                    id="btn-dividir"
+                    py-click="dividir">
+                    Divisão (÷)
+                </button>
+
+            </div>
+
+            <h2>
+
+                Resultado
+
+                <br><br>
+
+                <span id="resultado">0</span>
+
+            </h2>
+
+        </div>
+
+        <!-- Peach -->
+
+        <div class="lado">
+
+            <img
+                class="personagem peach"
+                src="https://static.wikia.nocookie.net/mario/images/7/7c/Peach_Posing_Alt_3D_Artwork.png/revision/latest?cb=20250809092529"
+                alt="Peach">
+
+        </div>
+
     </div>
-    
+
+    <!-- CHÃO -->
+
+    <div class="chao"></div>
+
+    <!-- Música (adicione o arquivo depois) -->
+
+   <audio id="somResultado">
+    <source src="./audio/gameover.mp3" type="audio/mpeg">
+   </audio>
+
+    <!-- PyScript -->
+
     <py-script src="./main.py"></py-script>
+
 </body>
+
 </html>
