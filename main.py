@@ -16,8 +16,16 @@ def somar(event):
 # Integrante 2: Implementar a Subtração
 # -------------------------------------------------------
 def subtrair(event):
-    # Integrante 2, coloque sua lógica aqui
-    pass
+    try:
+        n1 = float(document.getElementById("num1").value)
+        n2 = float(document.getElementById("num2").value)
+
+        resultado = n1 - n2
+
+        elemento_resultado.innerText = str(resultado)
+
+    except ValueError:
+        elemento_resultado.innerText = "Erro: Digite números válidos"
 
 # -------------------------------------------------------
 # Integrante 3: Implementar a Multiplicação
