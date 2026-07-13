@@ -26,8 +26,8 @@ Este projeto é uma calculadora simples, com tema do Super Mario, desenvolvida e
 
 ## Equipe
 * **Seu Nome Completo** - [@jamillyoliver] https://github.com/jamillyoliver
-* **Nome do Tayslan** - [leneribeiro] https://github.com/leneribeiro
-* **Nome da Lene** - [myellowheart] https://github.com/myellowheart
-* **Nome da Yellow** - [xlrayssalima] https://github.com/xlrayssalima
-* **Nome da Rayssa** - [teog-py] https://github.com/teog-py
+* **Nome do Tayslan** - [teog-py] https://github.com/teog-py
+* **Nome da Lene** -  [leneribeiro] https://github.com/leneribeiro
+* **Nome da Ana luiza** - [myellowheart] https://github.com/myellowheart
+* **Nome da Rayssa** - [xlrayssalima] https://github.com/xlrayssalima
 
