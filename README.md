@@ -2,7 +2,7 @@
 
 # Calculadora em PyScript
 
-Este projeto é uma calculadora simples desenvolvida em **PyScript**, que permite realizar as quatro operações matemáticas básicas diretamente no navegador:
+Este projeto é uma calculadora simples, com tema do Super Mario, desenvolvida em **PyScript**, que permite realizar as quatro operações matemáticas básicas diretamente no navegador:
 
 - Soma  
 - Subtração  
