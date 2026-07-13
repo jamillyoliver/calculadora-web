@@ -17,10 +17,12 @@ Este projeto é uma calculadora simples, com tema do Super Mario, desenvolvida e
 
 ## Exemplo de uso
 
-1. Abra o arquivo `index.html` no navegador.  
-2. Digite dois números nos campos de entrada.  
-3. Clique no botão da operação desejada.  
-4. O resultado aparecerá na área de saída.  
+1. Abra o terminal dentro da pasta do projeto.
+2. Inicie um servidor local rodando o comando: `python -m http.server`
+3. Abra o seu navegador e acesse o endereço: `http://localhost:8000`
+4. Digite dois números nos campos de entrada.
+5. Clique no botão da operação desejada.
+6. O resultado aparecerá na área de saída e o som será reproduzido. 
 
 
 
