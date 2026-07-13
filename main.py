@@ -1,7 +1,19 @@
 from pyscript import document
+from js import document as js_document
 
 # Pegando a área do resultado na tela
 elemento_resultado = document.getElementById('resultado')
+
+# Áudio
+som = js_document.getElementById("somResultado")
+
+def tocar_som():
+    try:
+        som.currentTime = 0
+        # Em alguns navegadores play() retorna uma Promise
+        som.play()
+    except Exception:
+        pass
 
 def somar(event):
     try:
@@ -23,6 +35,8 @@ def subtrair(event):
         resultado = n1 - n2
 
         elemento_resultado.innerText = str(resultado)
+
+        tocar_som()
 
     except ValueError:
         elemento_resultado.innerText = "Erro: Digite números válidos"
