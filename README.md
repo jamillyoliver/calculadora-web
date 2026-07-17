@@ -25,9 +25,9 @@ Este projeto é uma calculadora simples, com tema do Super Mario, desenvolvida e
 6. O resultado aparecerá na área de saída e o som será reproduzido. 
 
 ## Equipe
-* **Seu Nome Completo** - [@jamillyoliver] https://github.com/jamillyoliver
-* **Nome do Tayslan** - [teog-py] https://github.com/teog-py
-* **Nome da Lene** -  [leneribeiro] https://github.com/leneribeiro
-* **Nome da Ana luiza** - [myellowheart] https://github.com/myellowheart
-* **Nome da Rayssa** - [xlrayssalima] https://github.com/xlrayssalima
+* jamilly de oliveira cruz - [@jamillyoliver] https://github.com/jamillyoliver
+* Tayslan Enrique de Oliveira Gomes - [teog-py] https://github.com/teog-py
+* Rosilene Olegário Ribeiro -  [leneribeiro] https://github.com/leneribeiro
+* Ana Luiza Ribeiro de Freitas - [myellowheart] https://github.com/myellowheart
+* Rayssa Valerio Lima - [xlrayssalima] https://github.com/xlrayssalima
 
